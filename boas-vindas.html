@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo | FarmaVida</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="boas-vindas.html">FARMA<span>VIDA</span></a>
+    <nav class="topnav">
+      <span id="nomeNav"></span>
+      <button class="btn secondary small" onclick="sair()">Sair</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Cuidar de você é a nossa prioridade</div>
+        <h1>Bem-vindo à <span style="color:var(--orange)">FarmaVida</span>!</h1>
+        <p id="mensagemBoasVindas">Aqui você encontra cuidado, informação e produtos para sua saúde e bem-estar.</p>
+        <div class="inline-actions">
+          <a class="btn" href="index.html" onclick="sair()">Voltar ao início</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="sport-icon">💊</div>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="stat">
+        <strong>SAÚDE</strong>
+        <span>Seu bem-estar em primeiro lugar</span>
+      </div>
+      <div class="stat">
+        <strong>CUIDADO</strong>
+        <span>Atenção especial com você</span>
+      </div>
+      <div class="stat">
+        <strong>BEM-ESTAR</strong>
+        <span>Mais qualidade de vida todos os dias</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="boas-vindas.js"></script>
+</body>
+</html>
